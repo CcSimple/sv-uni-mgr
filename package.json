@@ -1,0 +1,22 @@
+{
+  "name": "@sv-uni/mgr",
+  "version": "1.0.0",
+  "description": "uni-app offline template mgr",
+  "private": true,
+  "keywords": [
+    "uni-app",
+    "template"
+  ],
+  "type": "module",
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "scripts": {
+    "dev:h5": "pnpm --filter ./uni dev:h5",
+    "build:h5": "pnpm --filter ./uni build:h5"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "license": "MIT"
+}
